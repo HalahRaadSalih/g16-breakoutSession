@@ -4,7 +4,8 @@ var router = require('./PixelArt/controllers/router');
 
 // Set the view engine && public folder
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/PixelArt/views');
+app.set('views',[__dirname + '/PixelArt/views',
+	__dirname + '/Mole/views']);
 
 app.use(express.static('Assets'));
 
