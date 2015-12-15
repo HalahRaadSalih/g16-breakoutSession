@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HalahRaadSalih/g16-breakoutSession/issues"
   },
-  "homepage": "https://github.com/HalahRaadSalih/g16-breakoutSession#readme"
+  "homepage": "https://github.com/HalahRaadSalih/g16-breakoutSession#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
