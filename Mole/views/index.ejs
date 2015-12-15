@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paramaterize Whack-A-Mole</title>
+		<link rel="stylesheet" href="/Mole/css/index.css">
+	</head>
+
+	<body>
+		<form action="whack-a-mole" method="get">
+			<fieldset>
+				<legend>Mole Properties</legend>
+				<br>
+				<div >
+					<label>Min </label>
+					<input  class="special" type="number" value="3" name="MOLE_UP_MIN"/>		
+				</div>
+				
+				<div>
+					<label>Max </label>
+					<input class="special" type="number" value="5" name="MOLE_UP_MAX"/>	
+				</div>
+				
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Game Modifiers</legend>
+				<br>
+
+				<div>
+					<label>Number Of Rounds </label>
+					<input type="number" value="10" name="NUMBER_OF_ROUNDS"/>	
+				</div>
+				
+
+				<div>
+					<label>Moles Per Round </label>
+					<input type="number" value="3" name="MOLES_PER_ROUND"/>
+				</div>
+
+				
+				<div>
+					<label>Round Cooldown </label>
+					<input type="number" value="3" name="ROUND_COOLDOWN"/>	
+				</div>
+
+				
+			</fieldset>	
+			<input type="submit"/>
+		</form>
+	</body>
+</html> 
